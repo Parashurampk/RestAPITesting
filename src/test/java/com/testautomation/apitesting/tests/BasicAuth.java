@@ -21,7 +21,8 @@ public class BasicAuth {
 	  			.get()
 	  		.then()
 	  			.assertThat()
-	  			.statusCode(200);
+	  			.statusCode(200)
+	  			.log().all();
 	  
   }
   
